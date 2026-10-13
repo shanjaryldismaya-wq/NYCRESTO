@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYC Resto Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h2>🍽️ NYC Resto Finder</h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#restaurants">Restaurants</a>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION (cover photo) -->
+  <header id="home">
+    <div class="hero-text">
+      <h1>Find the best food in New York City</h1>
+      <p>Search, add, edit and rate your favorite restos in all 5 boroughs.</p>
+      <a href="#restaurants" class="btn">Start Exploring</a>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      NYC Resto Finder is a student project that lists restaurants across the five
+      boroughs of New York: Manhattan, Brooklyn, the Bronx, Queens and Staten Island.
+      You can search by name or category, filter by borough, see the best quality
+      ones, and even add, edit, or delete restaurants.
+    </p>
+  </section>
+
+  <!-- RESTAURANTS SECTION -->
+  <section id="restaurants">
+    <h2>Check some Restaurants!</h2>
+
+    <!-- SEARCH -->
+    <div class="search-bar">
+      <input type="text" id="search" placeholder="Search name or category..." />
+      <button id="searchBtn" class="btn">Search</button>
+      <button id="bestBtn" class="btn gold">⭐ Best Quality (&gt; 90)</button>
+      <button id="resetBtn" class="btn gray">Reset</button>
+    </div>
+
+    <!-- FILTER BY BOROUGH -->
+    <div id="boroughButtons" class="boroughs"></div>
+
+    <!-- FILTER / GROUP BY CATEGORY -->
+    <div id="cuisineButtons" class="cuisines"></div>
+
+    <!-- ADD / EDIT FORM -->
+    <form id="restoForm">
+      <h3 id="formTitle">Add a Restaurant</h3>
+      <input type="hidden" id="restoId" />
+      <input type="text" id="name" placeholder="Restaurant name" required />
+      <select id="borough" required>
+        <option value="">Choose borough</option>
+        <option>Manhattan</option>
+        <option>Brooklyn</option>
+        <option>Bronx</option>
+        <option>Queens</option>
+        <option>Staten Island</option>
+      </select>
+      <select id="cuisine" required>
+        <option value="">Choose category</option>
+        <option>Steak</option>
+        <option>Burgers</option>
+        <option>Bakery</option>
+        <option>Pizza</option>
+        <option>Seafood</option>
+        <option>Coffee</option>
+        <option>Deli</option>
+        <option>Japanese</option>
+        <option>Mexican</option>
+        <option>Italian</option>
+        <option>Chinese</option>
+        <option>Dessert</option>
+        <option>Brunch</option>
+      </select>
+      <input type="text" id="address" placeholder="Address" required />
+      <input type="text" id="grades" placeholder="Grades e.g. 90, 95, 88" required />
+      <button type="submit" class="btn" id="saveBtn">Add</button>
+      <button type="button" class="btn gray" id="cancelBtn" style="display:none">Cancel</button>
+    </form>
+
+    <!-- TABLE -->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Borough</th>
+          <th>Category</th>
+          <th>Address</th>
+          <th>Avg Grade</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </section>
+
+  <footer>FindMyResto 2026</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

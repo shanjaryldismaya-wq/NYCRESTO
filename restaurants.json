@@ -1,0 +1,324 @@
+[
+  {
+    "id": 1,
+    "name": "Katz's Delicatessen",
+    "borough": "Manhattan",
+    "cuisine": "Deli",
+    "address": "205 E Houston St",
+    "grades": [
+      96,
+      94,
+      92
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Joe's Pizza",
+    "borough": "Manhattan",
+    "cuisine": "Pizza",
+    "address": "7 Carmine St",
+    "grades": [
+      93,
+      95,
+      91
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Levain Bakery",
+    "borough": "Manhattan",
+    "cuisine": "Bakery",
+    "address": "167 W 74th St",
+    "grades": [
+      97,
+      95,
+      96
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Keens Steakhouse",
+    "borough": "Manhattan",
+    "cuisine": "Steak",
+    "address": "72 W 36th St",
+    "grades": [
+      97,
+      96,
+      95
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Shake Shack Madison Sq",
+    "borough": "Manhattan",
+    "cuisine": "Burgers",
+    "address": "Madison Ave & E 23rd St",
+    "grades": [
+      91,
+      93,
+      90
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Le Bernardin",
+    "borough": "Manhattan",
+    "cuisine": "Seafood",
+    "address": "155 W 51st St",
+    "grades": [
+      99,
+      98,
+      99
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Blue Bottle Coffee",
+    "borough": "Manhattan",
+    "cuisine": "Coffee",
+    "address": "1 Rockefeller Plaza",
+    "grades": [
+      91
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sushi Nakazawa",
+    "borough": "Manhattan",
+    "cuisine": "Japanese",
+    "address": "23 Commerce St",
+    "grades": [
+      98,
+      97,
+      99
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Peter Luger Steak House",
+    "borough": "Brooklyn",
+    "cuisine": "Steak",
+    "address": "178 Broadway",
+    "grades": [
+      95,
+      93,
+      94
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Di Fara Pizza",
+    "borough": "Brooklyn",
+    "cuisine": "Pizza",
+    "address": "1424 Avenue J",
+    "grades": [
+      96,
+      94,
+      95
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Lucali",
+    "borough": "Brooklyn",
+    "cuisine": "Pizza",
+    "address": "575 Henry St",
+    "grades": [
+      95,
+      97,
+      94
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Dumont Burger",
+    "borough": "Brooklyn",
+    "cuisine": "Burgers",
+    "address": "314 Bedford Ave",
+    "grades": [
+      90,
+      92,
+      89
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Win Son Bakery",
+    "borough": "Brooklyn",
+    "cuisine": "Bakery",
+    "address": "164 Graham Ave",
+    "grades": [
+      91,
+      93,
+      90
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Devoción",
+    "borough": "Brooklyn",
+    "cuisine": "Coffee",
+    "address": "69 Grand St",
+    "grades": [
+      92,
+      94,
+      91
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Mario's Restaurant",
+    "borough": "Bronx",
+    "cuisine": "Italian",
+    "address": "2342 Arthur Ave",
+    "grades": [
+      93,
+      91,
+      94
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Roberto's",
+    "borough": "Bronx",
+    "cuisine": "Italian",
+    "address": "603 Crescent Ave",
+    "grades": [
+      96,
+      95,
+      97
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Madonia Brothers Bakery",
+    "borough": "Bronx",
+    "cuisine": "Bakery",
+    "address": "2348 Arthur Ave",
+    "grades": [
+      92,
+      90,
+      93
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Louie & Ernie's Pizza",
+    "borough": "Bronx",
+    "cuisine": "Pizza",
+    "address": "1300 Crosby Ave",
+    "grades": [
+      94,
+      92,
+      93
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Johnny's Reef Restaurant",
+    "borough": "Bronx",
+    "cuisine": "Seafood",
+    "address": "2 City Island Ave",
+    "grades": [
+      88,
+      90,
+      87
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Uncle Jack's Steakhouse",
+    "borough": "Queens",
+    "cuisine": "Steak",
+    "address": "39-40 Bell Blvd",
+    "grades": [
+      94,
+      93,
+      95
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Casa Enrique",
+    "borough": "Queens",
+    "cuisine": "Mexican",
+    "address": "5-48 49th Ave",
+    "grades": [
+      96,
+      97,
+      95
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Martha's Country Bakery",
+    "borough": "Queens",
+    "cuisine": "Bakery",
+    "address": "36-21 Ditmars Blvd",
+    "grades": [
+      91,
+      92,
+      90
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Bareburger Astoria",
+    "borough": "Queens",
+    "cuisine": "Burgers",
+    "address": "33-21 31st Ave",
+    "grades": [
+      86,
+      88,
+      85
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Mu Ramen",
+    "borough": "Queens",
+    "cuisine": "Japanese",
+    "address": "1209 Jackson Ave",
+    "grades": [
+      95,
+      94,
+      96
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Denino's Pizzeria",
+    "borough": "Staten Island",
+    "cuisine": "Pizza",
+    "address": "524 Port Richmond Ave",
+    "grades": [
+      95,
+      96,
+      94
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Joe & Pat's",
+    "borough": "Staten Island",
+    "cuisine": "Pizza",
+    "address": "1758 Victory Blvd",
+    "grades": [
+      93,
+      92,
+      94
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Lee's Tavern",
+    "borough": "Staten Island",
+    "cuisine": "Pizza",
+    "address": "60 Hancock St",
+    "grades": [
+      90,
+      91,
+      89
+    ]
+  }
+]
